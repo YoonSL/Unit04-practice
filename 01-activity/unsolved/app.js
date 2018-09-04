@@ -6,7 +6,7 @@ const numList5 = [4.2, 5.1, 3, 0, 0, 453, 2.43];
 
 let sum = 0;
 
-for(let i = 0; i < numList1.length; i++){
+for (let i = 0; i < numList1.length; i++) {
     sum = sum + numList1[i];
 }
 
@@ -14,28 +14,28 @@ render(sum);
 
 sum = 0;
 
-for(let i = 0; i < numList2.length; i++){
+for (let i = 0; i < numList2.length; i++) {
     sum = sum + numList2[i];
 }
 
 render(sum);
 
 
-for(let i = 0; i < numList3.length; i++){
+for (let i = 0; i < numList3.length; i++) {
     sum = sum + numList3[i];
 }
 
 render(sum);
 
 
-for(let i = 0; i < numList4.length; i++){
+for (let i = 0; i < numList4.length; i++) {
     sum = sum + numList4[i];
 }
 
 render(sum);
 
 
-for(let i = 0; i < numList5.length; i++){
+for (let i = 0; i < numList5.length; i++) {
     sum = sum + numList5[i];
 }
 
