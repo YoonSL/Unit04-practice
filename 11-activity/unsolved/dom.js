@@ -19,3 +19,10 @@ const on = function (sel, action, cb){
     nodeList[i].addEventListener(action, cb);
   }
 }
+
+const hate = function(){
+  text('.love-hate','Hate');
+}
+const love = function(){
+  text('.love-hate','Love');
+}

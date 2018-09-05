@@ -1,0 +1,25 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #34343f;
+}
+
+section{
+  background: #8ac625;
+  height: 200px;
+  display: grid;
+  color: white;
+  padding: 50px;
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: .5em;
+  text-transform: uppercase;
+}
+
+.love-hate{
+  cursor: pointer;
+}
+
+h1 {
+  padding: 70px 100px;
+}

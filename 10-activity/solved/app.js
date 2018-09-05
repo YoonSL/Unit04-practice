@@ -17,14 +17,15 @@ const on = function (sel, action, cb){
   document.querySelector(sel).addEventListener(action, cb);
 }
 
-const hate = function(){
-  text('.love-hate','Hate');
+const hateify = function () {
+  text('.love-hate', 'hate');
 }
 
-on('.love-hate','mouseenter',hate);
+on('.love-hate', 'mouseenter', hateify);
 
-const love = function (){
-  text('.love-hate','Love')
+const loveify = function () {
+  text('.love-hate', 'love');
 }
 
-on('.love-hate','mouseout',love);
+on('.love-hate', 'mouseout', loveify);
+
